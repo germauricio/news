@@ -1,0 +1,13 @@
+<table border = "1px">
+    <tr>
+        <th>Detalle</th>
+        <th>Autor</th>
+    </tr>
+    {{#each novedades}}
+    <tr>
+        <td>{{this.detalle}}</td>
+        <td>{{this.autor}}</td>
+   </tr>
+    {{/each}}
+</table>
+<a href ='/nuevaNovedad'>Ingresar nueva novedad</a>
